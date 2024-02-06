@@ -1,8 +1,8 @@
 settings:
-  title: 'Status Page'
+  title: 'Skindow Status Page'
   url: 'https://cf-status.skindow.xyz/' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 3 # number of days you want to display in histogram
+  daysInHistogram: 30 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
