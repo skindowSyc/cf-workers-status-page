@@ -39,6 +39,7 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+    followRedirect: true # should fetch follow redirects, default=false
 
   - id: warp-clash-api.skindow.xyz
     name: warp-clash-api.skindow.xyz
