@@ -49,3 +49,11 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+ - id: github-proxy
+    name: github proxy
+    description: 'github proxy'
+    url: 'https://github.skindow.xyz'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
