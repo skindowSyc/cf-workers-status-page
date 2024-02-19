@@ -56,4 +56,14 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+    
+  - id: librechat.skindow.xy
+    name: librechat.skindow.xy
+    description: 'librechat'
+    url: ' https://librechat.skindow.xy'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+   
 
