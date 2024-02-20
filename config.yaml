@@ -57,10 +57,10 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
     
-  - id: librechat.skindow.xy
-    name: librechat.skindow.xy
+  - id: librechat.skindow.xyz
+    name: librechat.skindow.xyz
     description: 'librechat'
-    url: ' https://librechat.skindow.xy'
+    url: ' https://librechat.skindow.xyz'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
