@@ -15,22 +15,22 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: chat-next-web.skindow.xyz # unique identifier
-    name: chat-next-web.skindow.xyz
-    description: 'chat gpt next status' # default=empty
-    url: 'https://chat-next-web.skindow.xyz/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+ # - id: chat-next-web.skindow.xyz # unique identifier
+ #   name: chat-next-web.skindow.xyz
+ #   description: 'chat gpt next status' # default=empty
+ #   url: 'https://chat-next-web.skindow.xyz/' # URL to fetch
+ #   method: GET # default=GET
+ #   expectStatus: 200 # operational status, default=200
+ #   followRedirect: false # should fetch follow redirects, default=false
+ #   linkable: true # allows the title to be a link, default=true
 
-  - id: gptnext.skindow.xyz
-    name: gptnext.skindow.xyz
-    description: 'gpt next web'
-    url: 'https://gptnext.skindow.xyz/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+ # - id: gptnext.skindow.xyz
+ #   name: gptnext.skindow.xyz
+ #   description: 'gpt next web'
+ #   url: 'https://gptnext.skindow.xyz/'
+ #   method: GET
+ #   expectStatus: 200
+ #   linkable: true # allows the title to be a link, default=true
 
   #- id: coze-proxy.skindow.xyz
   #  name: coze-proxy.skindow.xyz
