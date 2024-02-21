@@ -52,7 +52,7 @@ monitors:
   - id: librechat.skindow.xyz
     name: librechat.skindow.xyz
     description: 'librechat'
-    url: ' https://librechat.skindow.xyz'
+    url: 'https://librechat.skindow.xyz'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
