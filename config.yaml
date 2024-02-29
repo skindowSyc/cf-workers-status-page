@@ -32,14 +32,14 @@ monitors:
  #   expectStatus: 200
  #   linkable: true # allows the title to be a link, default=true
 
-  #- id: coze-proxy.skindow.xyz
-  #  name: coze-proxy.skindow.xyz
-  #  description: 'coze discord proxy'
-  #  url: 'https://coze-proxy.skindow.xyz'
-  #  method: GET
-  #  expectStatus: 404
-  #  linkable: true # allows the title to be a link, default=true
-  #  followRedirect: true # should fetch follow redirects, default=false
+  - id: coze-proxy.skindow.xyz
+    name: coze-proxy.skindow.xyz
+    description: 'coze discord proxy'
+    url: 'https://coze-proxy.skindow.xyz'
+    method: GET
+    expectStatus: 404
+    linkable: true # allows the title to be a link, default=true
+    followRedirect: true # should fetch follow redirects, default=false
 
   - id: warp-clash-api.skindow.xyz
     name: warp-clash-api.skindow.xyz
